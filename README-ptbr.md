@@ -1,8 +1,8 @@
 # Criador Automatizado de E-mail cPanel
 
-[Inglês](README.md)
+[English](README.md)
 
-![Licença](https://img.shields.io/github/license/sr00t3d/maildir-to-mbox)
+![Licença](https://img.shields.io/github/license/sr00t3d/cpanel-create-mail)
 ![Script Shell](https://img.shields.io/badge/language-Bash-green.svg)
 ![Compatibilidade](https://img.shields.io/badge/compatible-cpanel-blue)
 
