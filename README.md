@@ -2,7 +2,7 @@
 
 Readme: [Português](README-ptbr.md)
 
-![License](https://img.shields.io/github/license/sr00t3d/maildir-to-mbox)
+![License](https://img.shields.io/github/license/sr00t3d/cpanel-create-mail)
 ![Shell Script](https://img.shields.io/badge/language-Bash-green.svg)
 ![Compatibility](https://img.shields.io/badge/compatible-cpanel-blue)
 
