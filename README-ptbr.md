@@ -68,13 +68,13 @@ Senha:    Lk12$jasd912!dkS
 ## ⚠️ Aviso Legal
 
 > [!WARNING]
-> Este software é fornecido "como está". Embora extensivamente testado em ambientes cPanel, o autor não se responsabiliza por qualquer perda de dados.
+> Este software é fornecido "como está". Certifique-se sempre de testar primeiro em um ambiente de desenvolvimento. O autor não se responsabiliza por qualquer uso indevido, consequências legais ou impacto em dados causado por esta ferramenta.
 
 ---
 
 ## 📚 Tutorial Detalhado
 
-Para um guia completo passo a passo sobre como importar os arquivos gerados para o Thunderbird e solucionar problemas comuns de migração, confira meu artigo completo:
+Para um guia completo passo a passo, confira meu artigo completo:
 
 👉 [**Criação Rápida de Conta de E-mail no cPanel**](https://perciocastelo.com.br/blog/fast-create-cpanel-mail-account.html)
 
