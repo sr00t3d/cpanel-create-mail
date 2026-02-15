@@ -65,16 +65,16 @@ Password: Lk12$jasd912!dkS
 - **Domain not registered on server**: Ensure the domain is listed in cPanel and not just a DNS pointer.
 - **Account is suspended**: The script will block creation on suspended accounts to prevent abuse. Unsuspend the account via WHM first.
 
-## ⚠️ Disclaimer
+## ⚠️ Legal Notice
 
 > [!WARNING]
-> This software is provided "as-is". While extensively tested in cPanel environments. The author is not responsible for any data loss.
+> This software is provided "as is". Always make sure to test first in a development environment. The author is not responsible for any misuse, legal consequences, or data impact caused by this tool.
 
 ---
 
 ## 📚 Detailed Tutorial
 
-For a complete step-by-step guide on how to import the generated files into Thunderbird and troubleshoot common migration issues, check out my full article:
+For a complete step-by-step guide, check out my full article:
 
 👉 [**Fast Create cPanel Mail Account**](https://perciocastelo.com.br/blog/fast-create-cpanel-mail-account.html)
 
