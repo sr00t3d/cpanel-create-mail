@@ -6,6 +6,8 @@ Readme: [Português](README-ptbr.md)
 ![Shell Script](https://img.shields.io/badge/language-Bash-green.svg)
 ![Compatibility](https://img.shields.io/badge/compatible-cpanel-blue)
 
+<img width="700" src="cpanel-create-mail-cover.webp" />
+
 A Bash script designed for system administrators to automate the creation of email accounts on cPanel/WHM servers via the command line. It utilizes the cPanel `UAPI` and `WHMAPI1` for secure and standardized operations.
 
 ## 🚀 Features
