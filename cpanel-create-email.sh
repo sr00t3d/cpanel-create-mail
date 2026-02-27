@@ -1,17 +1,16 @@
-#!/bin/bash
-################################################################################
-#                                                                              #
-#   PROJECT: Create a new cPanel mail account                                  #
-#   VERSION: 2.0.0                                                             #
-#                                                                              #
-#   AUTHOR:  Percio Andrade                                                    #
-#   CONTACT: percio@evolya.com.br                                              #
-#   WEB:     https://perciocastelo.com.br | contato@perciocastelo.com.br       #
-#                                                                              #
-#   INFO:                                                                      #
-#   Create a new cPanel account using whmapi1                                  #
-#                                                                              #
-################################################################################
+#!/usr/bin/env bash
+# ╔═══════════════════════════════════════════════════════════════════════════╗
+# ║                                                                           ║
+# ║   cPanel Create Mail v2.0.0                                               ║
+# ║                                                                           ║
+# ╠═══════════════════════════════════════════════════════════════════════════╣
+# ║   Autor:   Percio Castelo                                                 ║
+# ║   Contato: percio@evolya.com.br | contato@perciocastelo.com.br            ║
+# ║   Web:     https://perciocastelo.com.br                                   ║
+# ║                                                                           ║
+# ║   Função:  Create a new cPanel account using whmapi1.                     ║
+# ║                                                                           ║
+# ╚═══════════════════════════════════════════════════════════════════════════╝
 
 if [[ -z "$1" ]]; then
     echo "[!] Usage: ./cpanel-create-email.sh user@domain.com"

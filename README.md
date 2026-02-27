@@ -1,6 +1,6 @@
 # cPanel Automated Email Creator
 
-Readme: [Português](README-ptbr.md)
+Readme: [BR](README-ptbr.md)
 
 ![License](https://img.shields.io/github/license/sr00t3d/cpanel-create-mail)
 ![Shell Script](https://img.shields.io/badge/language-Bash-green.svg)
@@ -26,32 +26,37 @@ A Bash script designed for system administrators to automate the creation of ema
 * **User:** Must be executed as `root` (to access WHM API and switch users for UAPI).
 * **Dependencies:** `openssl` (usually pre-installed).
 
-## 🔧 Installation
-
-1.  Download the script to your server:
-    ```bash
-    wget https://raw.githubusercontent.com/sr00t3d/cpanel-create-mail/refs/heads/main/cpanel-create-email.sh
-    ```
-2.  Make it executable:
-    ```bash
-    chmod +x cpanel-create-email.sh
-    ```
-
-## 💻 Usage
-
-Run the script providing the full email address you wish to create:
+1. **Download the file to the server:**
 
 ```bash
-./cpanel-create-email.sh user@domain.com
+curl -O https://raw.githubusercontent.com/sr00t3d/cpanel-create-mail/refs/heads/main/cpanel-create-email.sh
+
 ```
 
-## Output Example
+2. **Give execution permission:**
 
 ```bash
+chmod +x cpanel-create-email.sh
+
+```
+
+3. **Execute the script:**
+
+```bash
+./cpanel-create-email.sh email@domain.com
+
+```
+
+## Example Output
+
+```bash
+./cpanel-create-email.sh mail@domain.com
+
 Success! The email account has been created.
+
 --------------------------------------------------
-Email:    user@domain.com
-Password: Lk12$jasd912!dkS
+Email: tmail@domain.com
+Password: mEWlB7wIlQ8sacHGKg8zpg==
 --------------------------------------------------
 ```
 
@@ -70,13 +75,11 @@ Password: Lk12$jasd912!dkS
 ## ⚠️ Legal Notice
 
 > [!WARNING]
-> This software is provided "as is". Always make sure to test first in a development environment. The author is not responsible for any misuse, legal consequences, or data impact caused by this tool.
-
----
+> This software is provided "as is". Always ensure you have explicit permission before running. The author is not responsible for any misuse, legal consequences, or data impact caused by this tool.
 
 ## 📚 Detailed Tutorial
 
-For a complete step-by-step guide, check out my full article:
+For a complete, step-by-step guide, check out my full article:
 
 👉 [**Fast Create cPanel Mail Account**](https://perciocastelo.com.br/blog/fast-create-cpanel-mail-account.html)
 

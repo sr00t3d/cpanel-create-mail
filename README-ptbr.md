@@ -1,6 +1,6 @@
 # Criador Automatizado de E-mail cPanel
 
-[English](README.md)
+[EN](README.md)
 
 ![Licença](https://img.shields.io/github/license/sr00t3d/cpanel-create-mail)
 ![Script Shell](https://img.shields.io/badge/language-Bash-green.svg)
@@ -26,32 +26,33 @@ Um script Bash projetado para administradores de sistemas automatizarem a criaç
 * **Usuário:** Deve ser executado como `root` (para acessar a API do WHM e alternar usuários para UAPI).
 * **Dependências:** `openssl` (geralmente pré-instalado).
 
-## 🔧 Instalação
-
-1.  Baixe o script para o seu servidor:
-    ```bash
-    wget https://raw.githubusercontent.com/sr00t3d/cpanel-create-mail/refs/heads/main/cpanel-create-email.sh
-    ```
-2.  Torne-o executável:
-    ```bash
-    chmod +x cpanel-create-email.sh
-    ```
-
-## 💻 Uso
-
-Execute o script fornecendo o endereço de e-mail completo que deseja criar:
+1. **Baixe o arquivo no servidor:**
 
 ```bash
-./cpanel-create-email.sh user@domain.com
+curl -O https://raw.githubusercontent.com/sr00t3d/cpanel-create-mail/refs/heads/main/cpanel-create-email.sh
+```
+
+2. **Dê permissão de execução:**
+
+```bash
+chmod +x cpanel-create-email.sh
+```
+
+3. **Execute o script:**
+
+```bash
+./cpanel-create-email.sh email@dominio.com
 ```
 
 ## Exemplo de Saída
 
 ```bash
-Sucesso! A conta de e-mail foi criada.
+./cpanel-create-email.sh mail@domain.com
+
+Success! The email account has been created.
 --------------------------------------------------
-E-mail:   user@domain.com
-Senha:    Lk12$jasd912!dkS
+Email:    tmail@domain.com
+Password: mEWlB7wIlQ8sacHGKg8zpg==
 --------------------------------------------------
 ```
 
@@ -70,13 +71,11 @@ Senha:    Lk12$jasd912!dkS
 ## ⚠️ Aviso Legal
 
 > [!WARNING]
-> Este software é fornecido "como está". Certifique-se sempre de testar primeiro em um ambiente de desenvolvimento. O autor não se responsabiliza por qualquer uso indevido, consequências legais ou impacto em dados causado por esta ferramenta.
+> Este software é fornecido "tal como está". Certifique-se sempre de ter permissão explícita antes de executar. O autor não se responsabiliza por qualquer uso indevido, consequências legais ou impacto nos dados causados ​​por esta ferramenta.
 
----
+## 📚 Detailed Tutorial
 
-## 📚 Tutorial Detalhado
-
-Para um guia completo passo a passo, confira meu artigo completo:
+Para um guia completo, passo a passo, confira meu artigo completo:
 
 👉 [**Criação Rápida de Conta de E-mail no cPanel**](https://perciocastelo.com.br/blog/fast-create-cpanel-mail-account.html)
 
