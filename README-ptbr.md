@@ -26,6 +26,10 @@ Um script Bash projetado para administradores de sistemas automatizarem a criaç
 * **Usuário:** Deve ser executado como `root` (para acessar a API do WHM e alternar usuários para UAPI).
 * **Dependências:** `openssl` (geralmente pré-instalado).
 
+## 💻 Como usar
+
+### Modo hospedado
+
 1. **Baixe o arquivo no servidor:**
 
 ```bash
@@ -42,6 +46,12 @@ chmod +x cpanel-create-email.sh
 
 ```bash
 ./cpanel-create-email.sh email@dominio.com
+```
+
+### Modo direto
+
+```bash
+bash <(curl -fsSL 'https://raw.githubusercontent.com/sr00t3d/cpanel-create-mail/refs/heads/main/cpanel-create-email.sh') mail@dominio.com
 ```
 
 ## Exemplo de Saída

@@ -26,6 +26,10 @@ A Bash script designed for system administrators to automate the creation of ema
 * **User:** Must be executed as `root` (to access WHM API and switch users for UAPI).
 * **Dependencies:** `openssl` (usually pre-installed).
 
+## 💻 How to Use
+
+### Hosted Mode
+
 1. **Download the file to the server:**
 
 ```bash
@@ -45,6 +49,12 @@ chmod +x cpanel-create-email.sh
 ```bash
 ./cpanel-create-email.sh email@domain.com
 
+```
+
+### Direct Mode
+
+```bash
+bash <(curl -fsSL 'https://raw.githubusercontent.com/sr00t3d/cpanel-create-mail/refs/heads/main/cpanel-create-email.sh') mail@dominio.com
 ```
 
 ## Example Output
