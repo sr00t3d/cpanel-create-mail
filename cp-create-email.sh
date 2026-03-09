@@ -13,7 +13,7 @@
 # ╚═══════════════════════════════════════════════════════════════════════════╝
 
 if [[ -z "$1" ]]; then
-    echo "[!] Usage: ./cpanel-create-email.sh user@domain.com"
+    echo "[!] Usage: ./cp-create-email.sh user@domain.com"
     exit 1
 fi
 
